@@ -5,7 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Divider
@@ -67,12 +66,11 @@ fun WeatherPage() {
 //s7 Define the mian page component
 @Composable
 fun MainInfo() {
-    //s8. Creta a column and add a text. Talk about special Characters. Also the colors file
+    //s8. Create a column and add a text. Talk about special Characters. Also the colors file
 
     //s10 add padding to the modifeir
     Column(
         modifier = Modifier.padding(top = 24.dp),
-        //s12
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         //s9 work on th font of the tex
